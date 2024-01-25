@@ -1,5 +1,6 @@
-import Apresentacao from "./Componentes/Apresentacao";
-import Navegacao from "./Componentes/Navegacao";
+import Apresentacao from "./Componentes/Apresentacao"
+import Banner from "./Componentes/Banner"
+import Navegacao from "./Componentes/Navegacao"
 
 export default function App() {
   return (
@@ -7,5 +8,5 @@ export default function App() {
       <Navegacao />
       <Apresentacao />
     </main>
-  );
+  )
 }
