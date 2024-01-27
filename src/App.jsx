@@ -7,13 +7,13 @@ import Projetos from "./Componentes/Projetos"
 export default function App() {
   return (
     <>
-      <main className="bg-stone-950 h-auto font-body">
+      <main className="bg-stone-950 w-full h-auto  py-8 font-body">
         <Navegacao />
         <Apresentacao />
         <Habilidades />
         <Projetos />
       </main>
-      <footer></footer>
+      <footer>area do fotter</footer>
     </>
   )
 }

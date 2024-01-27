@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "titulo": "Psicologa Camila",
+    "descricao": "Desafio criar um site responsivo e fácil de usar utilizando Bootstrap, software foi desenvolvido para a psicóloga Camila Andrade.",
+    "img": "./assets/gif/site_camila.gif",
+    "deploy": "https://arttutu.github.io/camila-site/index.html",
+    "codigo": "https://github.com/Arttutu/camila-site",
+    "tecnologia": ["faBootstrap", "faSass", "faJsSquare"],
+    "nomeTech": "Bootstrap, SASS, JavaScript"
+  },
+  {
+    "id": 2,
+    "titulo": "To-do",
+    "descricao": "Um aplicativo de lista de tarefas construído em React, utilizando Styled Components para estilização e aproveitando a flexibilidade da Context API para um gerenciamento eficiente de dados entre os componentes",
+    "img": "./assets/gif/to-do.gif",
+    "deploy": "https://to-do-arttutu.vercel.app",
+    "codigo": "https://github.com/Arttutu/to-do",
+    "tecnologia": ["faJsSquare", "faReact", "faStyled"],
+    "nomeTech": " JavaScript, React, Styled-Components, Context API"
+  },
+  {
+    "id": 3,
+    "titulo": "Loopstudios",
+    "descricao": "Criei uma leading page real, o desafio foi proposto pelo site Frontend Mentor e tem como objetivo construir um projeto real para desenvolver skills.",
+    "img": "./assets/gif/loopstudios.gif",
+    "deploy": "https://loopstudios-arttutu.vercel.app",
+    "codigo": "https://github.com/Arttutu/loopstudios",
+    "tecnologia": ["faReact", "faStyled"],
+    "nomeTech": "React"
+  },
+  {
+    "id": 4,
+    "titulo": "Farm Clean",
+    "descricao": "Desafio proposto pela microsoft e a ong caça-fome. Nosso time teve o desafio de desenvolver uma solução em um software que interaja com uma IA generativa. Fui responsável por da vida a essa ideia e criar a prototipagem incial do projeto.",
+    "img": "./assets/gif/farm_clean.gif",
+    "deploy": "https://fomezero-prototipo.vercel.app",
+    "codigo": "https://github.com/Arttutu/fomezero-prototipo",
+    "tecnologia": ["faReact", "faStyled"],
+    "nomeTech": "React"
+  },
+  {
+    "id": 5,
+    "titulo": "Rick Morty API",
+    "descricao": "Desafio aprender a consumir API com o react, utilizei Axios para obter os dados http e usei o padrão API rest para consumir a API e construir o front-end com os dados da API",
+    "img": "./assets/img/rick_morty.png",
+    "deploy": "https://rick-mory-api-xi.vercel.app",
+    "codigo": "https://github.com/Arttutu/rick-mory-api",
+    "tecnologia": ["faReact", "faStyled"],
+    "nomeTech": "React, Styled-Components, API"
+  },
+  {
+    "id": 6,
+    "titulo": "Planetas",
+    "descricao": "Planetas é um projeto para vizualiar informações dos planetas do sistema solar. Desenvolvi habilidades como figma e react-route-dom. Contrui esse  projeto a partir de um design do figma UX/UI, com mais de 24 páginas.",
+    "img": "./assets/img/planetas.png",
+    "deploy": "https://planetas-theta.vercel.app",
+    "codigo": "https://github.com/Arttutu/Planetaas",
+    "tecnologia": ["faJsSquare", "faHtml5", "faCss3", "faReact"],
+    "nomeTech": "JavaScript, HTML5, CSS3, React"
+  }
+]
