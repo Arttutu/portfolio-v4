@@ -19,6 +19,7 @@ export default function Projetos() {
             descricao={item.descricao}
             site={item.deploy}
             codigo={item.codigo}
+            tech={item.nomeTech}
           />
         ))}
       </div>

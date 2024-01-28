@@ -10,8 +10,8 @@ export default function App() {
       <main className="bg-stone-950 w-full h-auto  py-8 font-body">
         <Navegacao />
         <Apresentacao />
-        <Habilidades />
         <Projetos />
+        <Habilidades />
       </main>
       <footer>area do fotter</footer>
     </>
