@@ -11,7 +11,7 @@ import {
 import { FaHtml5 } from "react-icons/fa"
 export default function Habilidades() {
   return (
-    <section className="container flex mx-auto mt-16 sm:mt-32">
+    <section className="container flex mx-auto  mt-16 sm:mt-32">
       <div className=" sm:grid md:grid-rows-2 md:grid-cols-3 md:gap-16 sm:grid-cols-2 items-center flex flex-col mx-auto  gap-8 ">
         <div className="items-center flex flex-row gap-8">
           <h2 className="text-3xl sm:text-5xl text-white font-bold">React</h2>
