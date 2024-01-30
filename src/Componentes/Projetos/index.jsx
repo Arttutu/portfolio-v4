@@ -10,7 +10,7 @@ export default function Projetos() {
         <h3 className="text-white text-3xl text- sm:text-7xl">projetos.</h3>
         <BotaoContato />
       </div>
-      <div className="mx-auto gap-12 flex flex-col xl:grid xl:grid-cols-3 xl:grid-rows-2 md:grid md:grid-cols-2 md:grid-rows-3 ">
+      <div className="mx-auto  gap-12 flex flex-col xl:grid xl:grid-cols-3 xl:grid-rows-2 md:grid md:grid-cols-2 md:grid-rows-3 ">
         {itens.map((item) => (
           <Card
             key={item.id}
