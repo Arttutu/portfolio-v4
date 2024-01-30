@@ -8,13 +8,21 @@ export default function Navegacao() {
         <h1 className="text-white text-2xl sm:text-3xl ">arthurgomes</h1>
 
         <div className="flex gap-5 relative z-20">
-          <a href="">
+          <a href="https://github.com/Arttutu" target="_blank">
             <img src="./assets/img/github.svg" />
           </a>
-          <a href="" className="text-white">
+          <a
+            href="https://www.linkedin.com/in/santos-gomes/"
+            target="_blank"
+            className="text-white"
+          >
             <Linkedin />
           </a>
-          <a href="" className="text-white">
+          <a
+            href="https://api.whatsapp.com/send/?phone=5511957243215"
+            target="_blank"
+            className="text-white"
+          >
             <MessageCircle />
           </a>
         </div>

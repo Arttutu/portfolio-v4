@@ -5,12 +5,12 @@ import Card from "../Card"
 
 export default function Projetos() {
   return (
-    <section className="container flex flex-col mt-32 mx-auto px-4">
+    <section className="container flex flex-col mt-32 mx-auto ">
       <div className=" w-full flex flex-row mx-auto  items-center justify-between mb-32">
         <h3 className="text-white text-3xl text- sm:text-7xl">projetos.</h3>
         <BotaoContato />
       </div>
-      <div className="mx-auto gap-12 flex flex-col xl:grid xl:grid-cols-3 xl:grid-rows-2  sm:grid lg:grid-cols-2 sm:grid-rows-3 sm:gap-12">
+      <div className="mx-auto gap-12 flex flex-col xl:grid xl:grid-cols-3 xl:grid-rows-2 md:grid md:grid-cols-2 md:grid-rows-3 ">
         {itens.map((item) => (
           <Card
             key={item.id}
