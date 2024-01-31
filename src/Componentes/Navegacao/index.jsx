@@ -1,4 +1,5 @@
 import { Linkedin, MessageCircle } from "lucide-react"
+import { SiGithub } from "react-icons/si"
 import React from "react"
 
 export default function Navegacao() {
@@ -8,20 +9,24 @@ export default function Navegacao() {
         <h1 className="text-white text-2xl sm:text-3xl ">arthurgomes</h1>
 
         <div className="flex gap-5 relative z-20">
-          <a href="https://github.com/Arttutu" target="_blank">
-            <img src="./assets/img/github.svg" />
+          <a
+            className="text-white text-2xl hover:text-green-400 transition-all "
+            href="https://github.com/Arttutu"
+            target="_blank"
+          >
+            <SiGithub />
           </a>
           <a
             href="https://www.linkedin.com/in/santos-gomes/"
             target="_blank"
-            className="text-white"
+            className="text-white hover:text-green-400 transition-all"
           >
             <Linkedin />
           </a>
           <a
             href="https://api.whatsapp.com/send/?phone=5511957243215"
             target="_blank"
-            className="text-white"
+            className="text-white hover:text-green-400 transition-all"
           >
             <MessageCircle />
           </a>

@@ -1,6 +1,7 @@
 import React from "react"
 import BotaoContato from "../BotaoContato"
 import Banner from "../Banner"
+import BotaoProjeto from "../BotaoProjeto"
 
 export default function Apresentacao() {
   return (
@@ -20,7 +21,10 @@ export default function Apresentacao() {
             aprendizado, pronto para contribuir com o sucesso de projetos e
             equipes de desenvolvimento. Vamos codar juntos!
           </p>
-          <BotaoContato />
+          <div className=" flex gap-5">
+            <BotaoContato />
+            <BotaoProjeto />
+          </div>
         </article>
         <Banner />
       </div>

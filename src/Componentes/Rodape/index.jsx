@@ -4,7 +4,7 @@ import Formulario from "../Formulario"
 export default function Rodape() {
   return (
     <>
-      <section className="container mx-auto md:flex md:flex-row md:justify-around items-center flex-col gap-8">
+      <section className="container mx-auto md:flex md:flex-row md:justify-around items-center flex-col gap-8 ">
         <div className="  w-80 sm:w-96  gap-8 flex items-left flex-col">
           <h3 className="text-white text-4xl  sm:text-7xl font-semibold  ">
             Contato

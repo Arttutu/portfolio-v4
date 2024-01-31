@@ -14,7 +14,7 @@ export default function App() {
         <Habilidades />
         <Projetos />
       </main>
-      <footer className="py-8 w-full h-auto bg-gray-900 px-4">
+      <footer id="contato" className="py-8 w-full h-auto bg-gray-900 px-4">
         <Rodape />
         <Navegacao />
       </footer>
