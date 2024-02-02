@@ -10,7 +10,7 @@ export default function Rodape() {
             Contato
           </h3>
           <p className="text-white text-base text-left">
-            Eu adoraria ouvir sobre seu projeto e como posso ajudar. Por favor
+            Eu adoraria ouvir sobre sua ideia e seus projetos. Por favor
             preencha o formulário e entrarei em contato com você o mais breve
             possível.
           </p>

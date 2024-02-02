@@ -6,7 +6,6 @@
     "img": "./assets/gif/site_camila.gif",
     "deploy": "https://arttutu.github.io/camila-site/index.html",
     "codigo": "https://github.com/Arttutu/camila-site",
-    "tecnologia": ["faBootstrap", "faSass", "faJsSquare"],
     "nomeTech": "Bootstrap, SASS, JavaScript"
   },
   {
@@ -16,8 +15,16 @@
     "img": "./assets/gif/to-do.gif",
     "deploy": "https://to-do-arttutu.vercel.app",
     "codigo": "https://github.com/Arttutu/to-do",
-    "tecnologia": ["faJsSquare", "faReact", "faStyled"],
-    "nomeTech": " JavaScript, React, Styled-Components, Context API"
+    "nomeTech": " React, JavaScript, Styled-Components, Context API"
+  },
+  {
+    "id": 6,
+    "titulo": "Github",
+    "descricao": "Desenvolvi um site que consome a API do GitHub, utilizando styled-components criei uma interface visualmente atraente, seguindo o layout do Figma.",
+    "img": "./assets/img/github.png",
+    "deploy": "https://github-app-lyart.vercel.app",
+    "codigo": "https://github.com/Arttutu/github-app",
+    "nomeTech": "React, Styled-Components, GithubAPI"
   },
   {
     "id": 3,
@@ -26,7 +33,6 @@
     "img": "./assets/gif/loopstudios.gif",
     "deploy": "https://loopstudios-arttutu.vercel.app",
     "codigo": "https://github.com/Arttutu/loopstudios",
-    "tecnologia": ["faReact", "faStyled"],
     "nomeTech": "React"
   },
   {
@@ -36,7 +42,6 @@
     "img": "./assets/gif/farm_clean.gif",
     "deploy": "https://fomezero-prototipo.vercel.app",
     "codigo": "https://github.com/Arttutu/fomezero-prototipo",
-    "tecnologia": ["faReact", "faStyled"],
     "nomeTech": "React"
   },
   {
@@ -46,17 +51,6 @@
     "img": "./assets/img/rick_morty.png",
     "deploy": "https://rick-mory-api-xi.vercel.app",
     "codigo": "https://github.com/Arttutu/rick-mory-api",
-    "tecnologia": ["faReact", "faStyled"],
-    "nomeTech": "React, Styled-Components, API"
-  },
-  {
-    "id": 6,
-    "titulo": "Planetas",
-    "descricao": "Planetas é um projeto para vizualiar informações dos planetas do sistema solar. Desenvolvi habilidades como figma e react-route-dom. Contrui esse  projeto a partir de um design do figma UX/UI, com mais de 24 páginas.",
-    "img": "./assets/img/planetas.png",
-    "deploy": "https://planetas-theta.vercel.app",
-    "codigo": "https://github.com/Arttutu/Planetaas",
-    "tecnologia": ["faJsSquare", "faHtml5", "faCss3", "faReact"],
-    "nomeTech": "JavaScript, HTML5, CSS3, React"
+    "nomeTech": "React, Styled-Components, API Rick Morty"
   }
 ]

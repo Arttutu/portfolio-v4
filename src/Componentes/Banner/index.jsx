@@ -5,7 +5,7 @@ export default function Banner() {
     <img
       className="w-96 h-50 md:w-1/3 md:h-auto sm:w-1/2 bg-gray-400 rounded-lg "
       src={banner}
-      alt="Minha foto pesssoal"
+      alt="Minha foto pesssoal do Arthur"
     ></img>
   )
 }
