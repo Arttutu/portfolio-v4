@@ -3,7 +3,7 @@ import BotaoCard from "../BotaoCard"
 
 export default function Card({ img, titulo, descricao, site, codigo, tech }) {
   return (
-    <div className="  w-72 sm:w-96  flex flex-col gap-8 items-center   rounded-b-2xl shadow-sm   pb-4 ">
+    <div className="  w-72 sm:w-96  flex flex-col gap-8 items-center pb-4 ">
       <img src={img} alt={titulo} className="w-full h-auto "></img>
       <div className="flex flex-col px-2 gap-4 ">
         <h1 className="text-white font-bold text-2xl ">{titulo}</h1>

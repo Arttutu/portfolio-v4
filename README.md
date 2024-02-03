@@ -1,8 +1,15 @@
-# React + Vite
+# Portfolio Versão 4
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Terminei minha 4 versão do meu portfolio, dessa vez a ideia foi construir um portfolio minimalista e treinar o uso do Tailwind CSS, implementei um sessão de contato com o Emailjs onde eu poso receber mensagem. Estou muito orgulhoso do resultado final.
 
-Currently, two official plugins are available:
+## Referência
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [React](https://legacy.reactjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/docs/installation)
+- [EmailJs](https://www.emailjs.com/)
+
+## Autores
+
+- [@Arttutu](https://www.github.com/Arttutu)
+
+## Print
