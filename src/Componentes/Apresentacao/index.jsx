@@ -11,7 +11,7 @@ export default function Apresentacao() {
           <h1 className=" text-white text-4xl  sm:text-7xl font-semibold  after:content-['Arthur.'] after:sm:text-7xl after:text-4xl after:px-5 after:border-b-4 after:border-green-400">
             Oi, eu sou
           </h1>
-          <h1 className=" text-white text-4xl  sm:text-7xl font-semibold">
+          <h1 className=" text-white text-4xl  sm:text-7xl font-semibold sm: mt-5">
             Prazer em conhecer você!
           </h1>
           <p className=" text-gray-400  mt-10 text-base sm:text-lg ">
