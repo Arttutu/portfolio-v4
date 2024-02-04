@@ -13,3 +13,4 @@ Terminei minha 4 versão do meu portfolio, dessa vez a ideia foi construir um po
 - [@Arttutu](https://www.github.com/Arttutu)
 
 ## Print
+![](https://github.com/Arttutu/portfolio-v4/blob/main/portfolio1.png?raw=true)
