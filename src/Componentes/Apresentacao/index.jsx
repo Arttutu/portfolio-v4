@@ -1,8 +1,8 @@
-import React from "react"
-import BotaoContato from "../BotaoContato"
-import Banner from "../Banner"
-import BotaoProjeto from "../BotaoProjeto"
-
+import React from "react";
+import BotaoContato from "../BotaoContato";
+import Banner from "../Banner";
+import BotaoProjeto from "../BotaoProjeto";
+import foto from "./logo_avatar.jpeg";
 export default function Apresentacao() {
   return (
     <section className="container mt-14 sm:mt-32 mx-auto">
@@ -29,9 +29,12 @@ export default function Apresentacao() {
             <BotaoProjeto />
           </div>
         </article>
-        <Banner />
+        <Banner
+          textoAlternativo=" foto do criador do site o nome dele é arthur"
+          enderecoImagem={foto}
+        />
       </div>
       <div className="w-100  sm:w-auto h-1 bg-zinc-500 mt-32 "></div>
     </section>
-  )
+  );
 }
