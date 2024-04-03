@@ -1,7 +1,7 @@
-import React from "react"
-import BotaoCard from "../BotaoCard"
 
-export default function Card({ img, titulo, descricao, site, codigo, tech }) {
+import BotaoCard from "../BotaoCard"
+import { CardProps } from "../Compartilhado/interface/icard"
+export default function Card({ img, titulo, descricao, site, codigo, tech }:CardProps) {
   return (
     <div className="  w-72 sm:w-96  flex flex-col gap-8 items-center pb-4 ">
       <img src={img} alt={titulo} className="w-full h-auto "></img>

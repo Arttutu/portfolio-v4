@@ -1,8 +1,5 @@
-import React from "react"
-interface BannerProps {
-  enderecoImagem: string,
-  textoAlternativo?: string
-}
+
+import { BannerProps } from "../Compartilhado/interface/ibanner"
 
 export default function Banner({enderecoImagem, textoAlternativo}:BannerProps) {
   return (

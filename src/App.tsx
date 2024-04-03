@@ -1,8 +1,8 @@
-import Apresentacao from "./Componentes/Apresentacao";
-import Habilidades from "./Componentes/Habilidades";
-import Navegacao from "./Componentes/Navegacao";
-import Projetos from "./Componentes/Projetos";
-import Rodape from "./Componentes/Rodape";
+import Apresentacao from "./Componentes/Apresentacao/index.js";
+import Habilidades from "./Componentes/Habilidades/index.js";
+import Navegacao from "./Componentes/Navegacao/index.js";
+import Projetos from "./Componentes/Projetos/index.js";
+import Rodape from "./Componentes/Rodape/index.js";
 
 export default function App() {
   return (

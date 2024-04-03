@@ -1,9 +1,9 @@
-import React from "react"
-import BotaoContato from "../BotaoContato"
-import itens from "./projetos.json"
-import Card from "../Card"
 
-import { SiGithub } from "react-icons/si"
+import BotaoContato from "../BotaoContato";
+import itens from "./projetos.json";
+import Card from "../Card";
+
+import { SiGithub } from "react-icons/si";
 export default function Projetos() {
   return (
     <section id="projeto" className="container flex flex-col mt-32 mx-auto ">
@@ -12,7 +12,7 @@ export default function Projetos() {
         <BotaoContato />
       </div>
       <div className="mx-auto  gap-12 flex flex-col xl:grid xl:grid-cols-3 xl:grid-rows-2 md:grid md:grid-cols-2 md:grid-rows-3 ">
-        {itens.map((item) => (
+        {itens.map((item ) => (
           <Card
             key={item.id}
             img={item.img}
@@ -31,5 +31,5 @@ export default function Projetos() {
         </button>
       </a>
     </section>
-  )
+  );
 }

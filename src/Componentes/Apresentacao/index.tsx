@@ -3,6 +3,7 @@ import BotaoContato from "../BotaoContato";
 import Banner from "../Banner";
 import BotaoProjeto from "../BotaoProjeto";
 import foto from "./logo_avatar.jpeg";
+
 export default function Apresentacao() {
   return (
     <section className="container mt-14 sm:mt-32 mx-auto">

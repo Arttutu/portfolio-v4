@@ -1,20 +1,20 @@
-import React, { useState } from "react"
-import emailjs from "@emailjs/browser"
+import React, { useState } from "react";
+import emailjs from "@emailjs/browser";
 export default function Formulario() {
-  const [nome, setNome] = useState("")
-  const [email, setEmail] = useState("")
-  const [mensagem, setMensagem] = useState("")
-  function EnviarMensagem(e) {
-    e.preventDefault()
+  const [nome, setNome] = useState("");
+  const [email, setEmail] = useState("");
+  const [mensagem, setMensagem] = useState("");
+  function EnviarMensagem(e : React.FormEvent<HTMLFormElement>) {
+    e.preventDefault();
     if (nome === "" || email === "" || mensagem === "") {
-      alert("preencha todos os campos")
+      alert("preencha todos os campos");
     }
     const templateParans = {
       from_name: nome,
       to_name: nome,
       message: mensagem,
       email: email,
-    }
+    };
     emailjs
       .send(
         "service_6fbajdk",
@@ -24,20 +24,20 @@ export default function Formulario() {
       )
       .then(
         (response) => {
-          console.log("Email Enviado", response.status, response.text)
-          setEmail("")
-          setMensagem("")
-          setNome("")
-          alert("Email Enviado com Sucesso")
+          console.log("Email Enviado", response.status, response.text);
+          setEmail("");
+          setMensagem("");
+          setNome("");
+          alert("Email Enviado com Sucesso");
         },
         (error) => {
-          console.log("erro", error)
-          alert("Erro ao enviar")
+          console.log("erro", error);
+          alert("Erro ao enviar");
         }
-      )
+      );
   }
   return (
-    <form className="flex flex-col  gap-4" onSubmit={EnviarMensagem}>
+    <form className="flex flex-col  gap-4" onSubmit={event => EnviarMensagem}>
       <label className="text-gray-400 hidden">Nome</label>
       <input
         className=" w-80 sm:w-96 h-8 bg-gray-900 border-b-2 border-white text-white focus:outline-none"
@@ -57,7 +57,7 @@ export default function Formulario() {
       <label className="text-gray-400 hidden">Mensagem</label>
       <textarea
         className=" w-80 sm:w-96 h-32 bg-gray-900 border-b-2 border-white text-white focus:outline-none"
-        type="text"
+  
         placeholder="Mensagem"
         onChange={(e) => setMensagem(e.target.value)}
         value={mensagem}
@@ -72,5 +72,5 @@ export default function Formulario() {
         <div className="w-32 h-1 mt-2 bg-green-400"></div>
       </div>
     </form>
-  )
+  );
 }
