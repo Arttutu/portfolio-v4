@@ -8,7 +8,7 @@ export default function Projetos() {
   return (
     <section id="projeto" className="container flex flex-col mt-32 mx-auto ">
       <div className=" w-full flex flex-row mx-auto  items-center justify-between mb-32">
-        <h3 className="text-white text-3xl text- sm:text-7xl">Projetos.</h3>
+        <h3 className="dark:text-white text-black text-3xl text- sm:text-7xl">Projetos.</h3>
         <BotaoContato />
       </div>
       <div className="mx-auto  gap-12 flex flex-col xl:grid xl:grid-cols-3 xl:grid-rows-2 md:grid md:grid-cols-2 md:grid-rows-3 ">
@@ -25,7 +25,7 @@ export default function Projetos() {
         ))}
       </div>
       <a href="https://github.com/Arttutu" target="_blank">
-        <button className="text-white flex gap-4 items-center font-bold text-xl sm:text-3xl  mx-auto my-32 hover:text-green-400 transition-all">
+        <button className="dark:text-white text-black flex gap-4 items-center font-bold text-xl sm:text-3xl  mx-auto my-32 hover:text-green-400 transition-all">
           Veja mais projetos
           <SiGithub />
         </button>

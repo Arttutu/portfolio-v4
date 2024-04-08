@@ -7,7 +7,7 @@ import Rodape from "./Componentes/Rodape/index.js";
 export default function App() {
   return (
     <>
-      <main className="bg-stone-950 w-full h-auto px-8  py-8 font-body">
+      <main className="dark:bg-stone-950 bg-stone-200 w-full h-auto px-8  py-8 font-body">
         <Navegacao />
         <Apresentacao />
         <Habilidades />
