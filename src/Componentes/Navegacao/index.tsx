@@ -4,7 +4,7 @@ import { TemaBotao } from "../TemaBotao/TemaBotao"
 
 export default function Navegacao() {
   return (
-    <nav className="flex justify-center pt-5">
+    <nav className="flex justify-center pt-5 ">
       <section className="container flex  items-center gap-3 flex-col sm:flex-row sm:justify-between">
         <h1 className="dark:text-white text-2xl sm:text-3xl text-black ">arthurgomes</h1>
 
