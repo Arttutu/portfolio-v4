@@ -7,6 +7,7 @@ import {
   SiFigma,
   SiJavascript,
   SiStyledcomponents,
+  SiTypescript
 } from "react-icons/si"
 import { FaHtml5 } from "react-icons/fa"
 export default function Habilidades() {
@@ -27,6 +28,15 @@ export default function Habilidades() {
             <SiJavascript />
           </div>
         </div>
+        <div className=" items-center flex flex-row gap-8">
+          <h2 className=" text-3xl sm:text-5xl dark:text-gray-400 text-black font-bold">
+          TypeScript
+          </h2>
+          <div className="dark:text-white text-black text-3xl sm:text-5xl">
+            <SiTypescript />
+          </div>
+        </div>
+        
         <div className="  items-center flex flex-row gap-8">
           <h2 className=" text-3xl sm:text-5xl dark:text-gray-400 text-black font-bold">
             Tailwind

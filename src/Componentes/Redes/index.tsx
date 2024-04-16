@@ -2,7 +2,7 @@ import { Linkedin, MessageCircle } from "lucide-react"
 import { SiGithub } from "react-icons/si"
 import { TemaBotao } from "../TemaBotao/TemaBotao"
 
-export default function Navegacao() {
+export default function Redes() {
   return (
     <nav className="flex justify-center pt-5 ">
       <section className="container flex  items-center gap-3 flex-col sm:flex-row sm:justify-between">
