@@ -9,7 +9,7 @@
     "nomeTech": "Bootstrap, SASS, JavaScript"
   },
   {
-    "id": 1,
+    "id": 7,
     "titulo": "Clone Linkedin",
     "descricao": "O projeto é um desafio pessoal que proposto a mim mesmo: construir a página principal do LinkedIn com todas as suas funções, modais e estilo.",
     "img": "./assets/img/linkedin.png",
