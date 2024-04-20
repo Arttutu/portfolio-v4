@@ -37,7 +37,7 @@ export default function Formulario() {
       );
   }
   return (
-    <form className="flex flex-col  gap-4" onSubmit={event => EnviarMensagem}>
+    <form className="flex flex-col  gap-4" onSubmit={ EnviarMensagem}>
       <label className="text-gray-400 hidden">Nome</label>
       <input
         className=" w-80 sm:w-96 h-8 bg-gray-900 border-b-2 border-white text-white focus:outline-none"
