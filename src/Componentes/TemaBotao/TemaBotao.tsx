@@ -5,7 +5,7 @@ export const TemaBotao = ()=>{
 
     const PreferenciaSistema = window.matchMedia('(prefers-color-scheme: dark)').matches
     useEffect (() =>{
-        PreferenciaSistema && document.documentElement.classList.add('darkr')
+        PreferenciaSistema && document.documentElement.classList.add('dark')
     })
     const toogle = () => {
         document.documentElement.classList.toggle('dark')

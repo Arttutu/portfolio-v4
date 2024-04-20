@@ -25,7 +25,7 @@ export default function Projetos() {
         ))}
       </div>
       <a href="https://github.com/Arttutu" target="_blank">
-        <button className="dark:text-white text-black flex gap-4 items-center font-bold text-xl sm:text-3xl  mx-auto my-32 hover:text-green-400 transition-all">
+        <button className="dark:text-white text-black flex gap-4 items-center font-bold text-xl sm:text-3xl  mx-auto my-32  dark:hover:text-green-400 hover:text-green-400 transition-all">
           Veja mais projetos
           <SiGithub />
         </button>

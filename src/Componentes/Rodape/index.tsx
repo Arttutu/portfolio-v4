@@ -27,7 +27,7 @@ export default function Rodape() {
         <div className="flex gap-5 relative z-20 items-center">
           <TemaBotao />
           <a
-            className="text-white   text-2xl hover:text-green-400 transition-all "
+            className="text-white text-2xl  dark:hover:text-green-400 hover:text-green-400 transition-all "
             href="https://github.com/Arttutu"
             target="_blank"
           >
@@ -36,14 +36,14 @@ export default function Rodape() {
           <a
             href="https://www.linkedin.com/in/santos-gomes/"
             target="_blank"
-            className="text-white  hover:text-green-400 transition-all"
+            className="text-white  dark:hover:text-green-400  hover:text-green-400 transition-all"
           >
             <Linkedin />
           </a>
           <a
             href="https://api.whatsapp.com/send/?phone=5511957243215"
             target="_blank"
-            className="text-white  hover:text-green-400 transition-all"  
+            className="text-white  dark:hover:text-green-400  hover:text-green-400 transition-all"  
           >
             <MessageCircle />
           </a>
