@@ -5,9 +5,8 @@ import { TemaBotao } from "../TemaBotao/TemaBotao"
 export default function Redes() {
   return (
     <nav className="flex justify-center pt-5 ">
-      <section className="container flex  items-center gap-3 flex-col sm:flex-row sm:justify-between">
+      <header className="container flex  items-center gap-3 flex-col sm:flex-row sm:justify-between">
         <h1 className="dark:text-white text-2xl sm:text-3xl text-black ">arthurgomes</h1>
-
         <div className="flex gap-5 relative z-20 items-center">
           <TemaBotao />
           <a
@@ -32,7 +31,7 @@ export default function Redes() {
             <MessageCircle />
           </a>
         </div>
-      </section>
+      </header>
     </nav>
   )
 }

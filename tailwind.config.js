@@ -5,7 +5,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        body: ["Space Grotesk"],
+        body: ["Inconsolata"],
       },
     },
   },
