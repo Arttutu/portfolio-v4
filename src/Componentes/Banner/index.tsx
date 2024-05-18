@@ -4,7 +4,7 @@ import { BannerProps } from "../Compartilhado/interface/ibanner"
 export default function Banner({enderecoImagem, textoAlternativo}:BannerProps) {
   return (
     <img
-      className="w-96 h-50 md:w-1/3 md:h-auto sm:w-1/2 bg-gray-400 rounded-lg "
+      className="w-full h-50 sm:w-[745px] sm:h-[350px] bg-gray-400 "
       src={enderecoImagem}
       alt={textoAlternativo}
     ></img>

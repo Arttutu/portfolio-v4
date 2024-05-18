@@ -1,16 +1,23 @@
+import BotaoCard from "../BotaoCard";
+import { CardProps } from "../Compartilhado/interface/icard";
 
-import BotaoCard from "../BotaoCard"
-import { CardProps } from "../Compartilhado/interface/icard"
-export default function Card({ img, titulo, descricao, site, codigo, tech }:CardProps) {
+interface CardPropsWithReverse extends CardProps {
+  reverse: boolean;
+}
+
+export default function Card({ img, titulo, descricao, site, codigo, tech, reverse }: CardPropsWithReverse) {
   return (
-    <div className="  w-72 sm:w-96  flex flex-col gap-8 items-center pb-4 ">
-      <img src={img} alt={titulo} className="w-full h-auto"></img>
-      <div className="flex flex-col px-2 gap-4 ">
-        <h1 className="dark:text-white text-black font-bold text-2xl ">{titulo}</h1>
-        <p className="dark:text-gray-400 text-gray-950 text-base">{descricao}</p>
-        <h2 className="dark:text-white text-black  text-left font-semibold">Tecnologias</h2>
-        <span className="dark:text-green-400 text-green-700  text-left">{tech}</span>
-        <div className=" w-full flex justify-start gap-8 items-center">
+    <div className={`flex flex-col  gap-8 md:flex md:items-center md:pb-4 ${reverse ? 'md:flex-row-reverse' : 'md:flex-row'}`}>
+      <img src={img} alt={titulo} className="sm:max-w-auto sm:h-[400px]" />
+      <div className={`flex flex-col justify-center items-start h-[400px] px-2 gap-4`}>
+        <div>
+          <h1 className="dark:text-white text-black font-extrabold text-2xl">{titulo} </h1>
+          <h2 className="dark:text-white text-black text-left font-semibold">Tecnologias</h2>
+          <span className="dark:text-white text-secundaria text-left">{tech}</span>
+        </div>
+        <div className="flex flex-col gap-4">
+          <p className="dark:text-gray-400 text-gray-950 text-base">{descricao}</p>
+          <div className="w-full flex justify-start gap-8 items-center">
           <a href={site} target="_blank">
             <BotaoCard nome="site" />
           </a>
@@ -18,7 +25,9 @@ export default function Card({ img, titulo, descricao, site, codigo, tech }:Card
             <BotaoCard nome="codigo" />
           </a>
         </div>
+        </div>
+       
       </div>
     </div>
-  )
+  );
 }

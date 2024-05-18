@@ -3,10 +3,10 @@ import React from "react"
 export default function BotaoContato() {
   return (
     <a href="#contato">
-      <button className="dark:text-white  dark:hover:text-green-400 text-black font-bold mt-4 hover:text-green-400 transition-all  ">
+      <button className="dark:text-white  dark:hover:text-secundaria text-black font-bold mt-4 hover:text-secundaria transition-all  ">
         Contato
       </button>
-      <div className="w-16 h-1 mt-2 bg-green-400"></div>
+      <div className="w-16 h-1 mt-2 bg-secundaria"></div>
     </a>
   )
 }
