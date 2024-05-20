@@ -1,11 +1,14 @@
 import React from 'react'
 import BotaoContato from '../BotaoContato'
-
+import { motion } from 'framer-motion';
 export default function Sobre() {
   return (
     <section className='container mx-auto flex flex-col mt-32'>
         <div className='flex flex-col '>
-        <h2 className='flex justify-end font-bold sm:text-9xl text-4xl  dark:text-white'>Arthur </h2>
+        <motion.h2  initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 2 }}
+            className='flex justify-end font-bold sm:text-9xl text-4xl  dark:text-white'>Arthur </motion.h2>
         <h2 className='flex justify-end font-bold sm:text-9xl text-4xl  dark:text-white  mr-5 sm:mr-16'>Gomes </h2>
         </div>
       

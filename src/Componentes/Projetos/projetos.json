@@ -3,7 +3,7 @@
     "id": 1,
     "titulo": "Psicologa Camila",
     "descricao": "Desafio criar um site responsivo e fácil de usar utilizando Bootstrap, software foi desenvolvido para a psicóloga Camila Andrade.",
-    "img": "./assets/gif/site_camila.gif",
+    "img": "./assets/img/site_camila.png",
     "deploy": "https://arttutu.github.io/camila-site/index.html",
     "codigo": "https://github.com/Arttutu/camila-site",
     "nomeTech": "Bootstrap, SASS, JavaScript"
@@ -21,7 +21,7 @@
     "id": 2,
     "titulo": "To-do",
     "descricao": "Um aplicativo de lista de tarefas construído em React, utilizando Styled Components para estilização e aproveitando a flexibilidade da Context API para um gerenciamento eficiente de dados entre os componentes",
-    "img": "./assets/gif/to-do.gif",
+    "img": "./assets/img/site_to_do.png",
     "deploy": "https://to-do-arttutu.vercel.app",
     "codigo": "https://github.com/Arttutu/to-do",
     "nomeTech": " React, JavaScript, Styled-Components, Context API"
@@ -39,7 +39,7 @@
     "id": 3,
     "titulo": "Loopstudios",
     "descricao": "Criei uma leading page real, o desafio foi proposto pelo site Frontend Mentor e tem como objetivo construir um projeto real para desenvolver skills.",
-    "img": "./assets/gif/loopstudios.gif",
+    "img": "./assets/img/site_loopstudios.png",
     "deploy": "https://loopstudios-arttutu.vercel.app",
     "codigo": "https://github.com/Arttutu/loopstudios",
     "nomeTech": "React"
@@ -48,7 +48,7 @@
     "id": 4,
     "titulo": "Farm Clean",
     "descricao": "Desafio proposto pela microsoft e a ong caça-fome. Nosso time teve o desafio de desenvolver uma solução em um software que interaja com uma IA generativa. Fui responsável por da vida a essa ideia e criar a prototipagem incial do projeto.",
-    "img": "./assets/gif/farm_clean.gif",
+    "img": "./assets/img/site_farm.png",
     "deploy": "https://fomezero-prototipo.vercel.app",
     "codigo": "https://github.com/Arttutu/fomezero-prototipo",
     "nomeTech": "React"
@@ -57,7 +57,7 @@
     "id": 5,
     "titulo": "Rick Morty API",
     "descricao": "Desafio aprender a consumir API com o react, utilizei Axios para obter os dados http e usei o padrão API rest para consumir a API e construir o front-end com os dados da API",
-    "img": "./assets/img/rick_morty.png",
+    "img": "./assets/img/site_rick_morty.png",
     "deploy": "https://rick-mory-api-xi.vercel.app",
     "codigo": "https://github.com/Arttutu/rick-mory-api",
     "nomeTech": "React, Styled-Components, API Rick Morty"

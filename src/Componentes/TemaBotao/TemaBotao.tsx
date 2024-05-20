@@ -11,7 +11,7 @@ export const TemaBotao = ()=>{
         document.documentElement.classList.toggle('dark')
     }
     return(
-        <div className="hidden sm:block">
+        <div className="">
             <LuSunMedium className= "cursor-pointer text-black w-[24px] h-[24px] hover:text-green-400 transition-all block dark:hidden dark:text-white " onClick={toogle}/>
             <LuMoon className=" cursor-pointer text-white w-[24px] h-[24px] hover:text-green-400 transition-all hidden dark:block" onClick={toogle} />
         </div>
