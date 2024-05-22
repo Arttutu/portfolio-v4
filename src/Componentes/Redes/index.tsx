@@ -1,21 +1,13 @@
 import { Linkedin, MessageCircle } from "lucide-react"
 import { SiGithub } from "react-icons/si"
 import { TemaBotao } from "../TemaBotao/TemaBotao"
-import { motion } from 'framer-motion';
 export default function Redes() {
   return (
     <nav className="flex justify-center pt-5 ">
       <header className="container flex  items-center gap-3 flex-col sm:flex-row sm:justify-between">
         <h1 className="dark:text-white text-2xl sm:text-3xl text-black font-extrabold  ">arthurgomes</h1>
         <h1  className="dark:text-secundaria text-2xl sm:text-2xl text-black font-extrabold "> Desenvolvedor Front-end</h1>
-        <motion.div
-          animate={{
-            x: 0,
-            y: -10,
-            scale: 1,
-            rotate: 0,
-          }}
-        >
+   
           <div className="flex gap-2 relative z-20 items-center">
             <TemaBotao /> 
             <span className=" text-black text-2xl dark:text-secundaria font-extrabold  ">//</span>
@@ -43,7 +35,7 @@ export default function Redes() {
               <MessageCircle />
             </a>
           </div>
-        </motion.div>
+    
       </header>
     </nav>
   )
