@@ -35,7 +35,7 @@ export default function Apresentacao() {
             initial="hidden"
             whileInView="visible"
             variants={containerAnimation}
-            className="text-center sm:text-left dark:text-white text-black text-2xl  sm:text-8xl font-semibold"
+            className="text-center sm:text-left dark:text-white text-black text-4xl  sm:text-8xl font-semibold"
         >
           {'Paixão pelo desenvolvimento de software'.split('').map((letra, index) => (
             <motion.span key={index} variants={letterAnimation}>
