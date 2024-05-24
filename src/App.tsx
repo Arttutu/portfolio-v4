@@ -1,5 +1,4 @@
 import Apresentacao from "./Componentes/Apresentacao/index.js";
-import Habilidades from "./Componentes/Habilidades/index.js";
 import Redes from "./Componentes/Redes/index.js";
 import Projetos from "./Componentes/Projetos/index.js";
 import Rodape from "./Componentes/Rodape/index.js";

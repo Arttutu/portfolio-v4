@@ -3,7 +3,7 @@ import { LuSunMedium, LuMoon  } from "react-icons/lu";
 
 export const TemaBotao = ()=>{
 
-    const PreferenciaSistema = window.matchMedia('(prefers-color-scheme: dark)').matches
+    const PreferenciaSistema = window.matchMedia('(prefers-color-scheme: light)').matches
     useEffect (() =>{
         PreferenciaSistema && document.documentElement.classList.add('dark')
     })

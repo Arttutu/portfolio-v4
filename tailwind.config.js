@@ -7,6 +7,7 @@ export default {
     extend: {
       fontFamily: {
         body: ["Inconsolata"],
+        footer:['Inconsolata']
       },
       colors: {
         //paleta de cor
