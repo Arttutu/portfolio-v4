@@ -10,7 +10,7 @@ export default function Projetos() {
         <h3 className="dark:text-white text-black text-3xl sm:text-7xl m-32 flex items-end justify-center font-bold">Projetos</h3>
         
      
-      <div className="flex flex-col  sm:gap-52">
+      <div className="flex flex-col gap-8  sm:gap-52">
         {itens.map((item, index) => (
           <motion.div   initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }} transition={{ duration: 1, ease: "easeIn" }}>
@@ -28,7 +28,7 @@ export default function Projetos() {
         ))}
       </div>
       <a href="https://github.com/Arttutu" target="_blank">
-        <button className="dark:text-white text-black flex gap-4 items-center font-bold text-xl sm:text-3xl mx-auto my-32 dark:hover:text-green-400 hover:text-green-400 transition-all">
+        <button className="dark:text-white text-black flex gap-4 items-center font-bold text-xl sm:text-3xl mx-auto my-32 dark:hover:text-secundaria hover:text-secundaria transition-all">
           Veja mais projetos 
           <SiGithub />
         </button>

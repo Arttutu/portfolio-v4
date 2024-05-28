@@ -13,9 +13,7 @@ export default function App() {
         <Sobre />
         <Projetos />
       </main>
-      <footer id="contato" className="py-8 w-full h-auto bg-gray-900 px-4">
         <Rodape />
-      </footer>
     </>
   );
 }

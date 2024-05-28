@@ -40,7 +40,7 @@ export default function Formulario() {
     <form className="flex flex-col  gap-4" onSubmit={ EnviarMensagem}>
       <label className="text-gray-400 hidden">Nome</label>
       <input
-        className=" w-80 sm:w-96 h-8 bg-gray-900 border-b-2 border-white text-white focus:outline-none"
+        className=" w-80 sm:w-96 h-8 dark:bg-fundo bg-black border-b-2 border-white dark:border-black text-white focus:outline-none"
         type="text"
         placeholder="Nome"
         onChange={(e) => setNome(e.target.value)}
@@ -48,7 +48,7 @@ export default function Formulario() {
       ></input>
       <label className="text-gray-400 hidden">Email</label>
       <input
-        className="  w-80 sm:w-96 h-8 bg-gray-900 border-b-2 border-white text-white focus:outline-none"
+        className="  w-80 sm:w-96 h-8 dark:bg-fundo bg-black border-b-2 border-white dark:border-black text-white focus:outline-none"
         type="email"
         placeholder="Email"
         onChange={(e) => setEmail(e.target.value)}
@@ -56,7 +56,7 @@ export default function Formulario() {
       ></input>
       <label className="text-gray-400 hidden">Mensagem</label>
       <textarea
-        className=" w-80 sm:w-96 h-32 bg-gray-900 border-b-2 border-white text-white focus:outline-none"
+        className=" w-80 sm:w-96 h-32 dark:bg-fundo bg-black border-b-2 border-white dark:border-black text-white focus:outline-none"
   
         placeholder="Mensagem"
         onChange={(e) => setMensagem(e.target.value)}
@@ -65,11 +65,11 @@ export default function Formulario() {
       <div className="flex flex-col items-center">
         <button
           type="submit"
-          className="text-white font-bold mt-4 hover:text-green-400 transition-all"
+          className="text-white dark:text-black font-bold mt-4 hover:text-green-400 transition-all"
         >
           Enviar Mensagem
         </button>
-        <div className="w-32 h-1 mt-2 bg-green-400"></div>
+        <div className="w-32 h-1 mt-2 bg-secundaria"></div>
       </div>
     </form>
   );
