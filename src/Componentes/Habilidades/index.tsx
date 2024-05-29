@@ -10,8 +10,10 @@ import {
   SiTypescript
 } from "react-icons/si"
 import { FaHtml5 } from "react-icons/fa"
+import ContainerMain from "../ContainerMain"
 export default function Habilidades() {
   return (
+  <ContainerMain>
     <section className="container flex mx-auto  mt-16 sm:mt-32">
       <div className=" md:grid md:grid-cols-2 lg:grid-rows-2 lg:grid-cols-3 lg:gap-16 items-center flex flex-col mx-auto  gap-8 ">
         <div className="items-center flex flex-row gap-8">
@@ -77,5 +79,6 @@ export default function Habilidades() {
         </div>
       </div>
     </section>
+    </ContainerMain>
   )
 }
