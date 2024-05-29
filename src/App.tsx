@@ -13,7 +13,7 @@ export default function App() {
         <Sobre />
         <Projetos />
       </main>
-        <Rodape />
+      <Rodape />
     </>
   );
 }

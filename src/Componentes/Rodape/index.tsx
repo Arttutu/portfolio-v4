@@ -50,7 +50,7 @@ export default function Rodape() {
         </div>
       </div>
     </nav>
-  )
+  
     </footer>
   )
 }

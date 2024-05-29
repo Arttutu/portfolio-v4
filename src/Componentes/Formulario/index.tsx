@@ -40,7 +40,7 @@ export default function Formulario() {
     <form className="flex flex-col  gap-4" onSubmit={ EnviarMensagem}>
       <label className="text-gray-400 hidden">Nome</label>
       <input
-        className=" w-80 sm:w-96 h-8 dark:bg-fundo bg-black border-b-2 border-white dark:border-black text-white focus:outline-none"
+        className=" w-80 sm:w-96 h-8 dark:bg-fundo bg-black border-b-2 border-white dark:border-black text-white dark:text-black focus:outline-none"
         type="text"
         placeholder="Nome"
         onChange={(e) => setNome(e.target.value)}
@@ -48,7 +48,7 @@ export default function Formulario() {
       ></input>
       <label className="text-gray-400 hidden">Email</label>
       <input
-        className="  w-80 sm:w-96 h-8 dark:bg-fundo bg-black border-b-2 border-white dark:border-black text-white focus:outline-none"
+        className="  w-80 sm:w-96 h-8 dark:bg-fundo bg-black border-b-2 border-white dark:border-black text-white dark:text-black focus:outline-none"
         type="email"
         placeholder="Email"
         onChange={(e) => setEmail(e.target.value)}
@@ -56,7 +56,7 @@ export default function Formulario() {
       ></input>
       <label className="text-gray-400 hidden">Mensagem</label>
       <textarea
-        className=" w-80 sm:w-96 h-32 dark:bg-fundo bg-black border-b-2 border-white dark:border-black text-white focus:outline-none"
+        className=" w-80 sm:w-96 h-32 dark:bg-fundo bg-black border-b-2 border-white dark:border-black text-white dark:text-black focus:outline-none"
   
         placeholder="Mensagem"
         onChange={(e) => setMensagem(e.target.value)}
