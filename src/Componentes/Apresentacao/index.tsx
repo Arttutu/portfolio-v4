@@ -1,7 +1,5 @@
-import React from "react";
-import BotaoContato from "../BotaoContato";
+
 import Banner from "../Banner";
-import BotaoProjeto from "../BotaoProjeto";
 import foto from "./logo.png";
 import { FiArrowDown } from "react-icons/fi";
 import { motion } from 'framer-motion';
@@ -28,7 +26,7 @@ export default function Apresentacao() {
     }
   };
   return (
-    <section className="container mt-14 sm:mt-32 mx-auto">
+    <section className="container mt-24  sm:mt-32 mx-auto">
       <div className="  sm:flex sm:flex-col flex flex-col gap-8">
         <article className=" w-full sm:flex sm:flex-col sm:w-1/2  ">
         <motion.h1
