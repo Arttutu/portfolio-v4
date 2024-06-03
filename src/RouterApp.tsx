@@ -1,7 +1,8 @@
 
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Index from "./Componentes/Paginas/index.js";
-import SobrePagina from "./Componentes/Paginas/sobre.js";
+import Index from "./Paginas";
+import SobrePagina from "./Paginas/sobre";
+
 
 
 export default function App() {

@@ -1,9 +1,8 @@
-import ContainerMain from '../ContainerMain'
-import Habilidades from '../Habilidades'
-import Header from '../Header';
-import Redes from '../Header'
-import Rodape from '../Rodape'
 import { motion } from 'framer-motion';
+import ContainerMain from '../Componentes/ContainerMain';
+import Header from '../Componentes/Header';
+import Habilidades from '../Componentes/Habilidades';
+import Rodape from '../Componentes/Rodape';
 
 export default function SobrePagina() {
   return (
