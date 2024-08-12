@@ -1,6 +1,15 @@
 [
   {
     "id": 1,
+    "titulo": "Crônicas do Console",
+    "descricao": "Crônicas do Console é um blog dedicado ao universo dos videogames. Exploramos clássicos, análises de lançamentos, e notícias do mundo dos jogos, trazendo uma perspectiva apaixonada para gamers de todos os níveis",
+    "img": "./assets/img/cronicas.png",
+    "deploy": "cronicasdoconsole.vercel.app/",
+    "codigo": "https://github.com/Arttutu/",
+    "nomeTech": "Next.js, Auth.js, Google API, Prisma, PostgreSQL, Tailiwind CSS, Figma"
+  },
+  {
+    "id": 1,
     "titulo": "Psicologa Camila",
     "descricao": "Desafio criar um site responsivo e fácil de usar utilizando Bootstrap, software foi desenvolvido para a psicóloga Camila Andrade.",
     "img": "./assets/img/site_camila.png",

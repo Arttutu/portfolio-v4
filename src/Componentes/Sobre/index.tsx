@@ -1,4 +1,4 @@
-import React from 'react';
+
 import BotaoContato from '../BotaoContato';
 import { motion } from 'framer-motion';
 
