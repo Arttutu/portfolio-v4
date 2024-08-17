@@ -22,7 +22,7 @@ export default function SobrePagina() {
         </motion.div>
           
           
-            <p className=' text-lg   font-semibold dark:text-white'>Atualmente cursando Análise e Desenvolvimento de Sistemas na FIAP, 
+            <p className=' text-lg font-semibold dark:text-white'>Atualmente cursando Análise e Desenvolvimento de Sistemas na FIAP, 
             com habilidades em desenvolvimento web, JavaScript, CSS, React.js, e git obtidas por meio de cursos na Alura. 
             Busco desafios e oportunidades para aplicar
             meu conhecimento em projetos inovadores, 

@@ -1,3 +1,5 @@
+
+
 /** @type {import('tailwindcss').Config} */
 export default {
   darkMode: "class",
@@ -6,7 +8,8 @@ export default {
     
     extend: {
       fontFamily: {
-        body: ["Inconsolata"],
+    
+        body: ["Anek "],
        
       },
       colors: {

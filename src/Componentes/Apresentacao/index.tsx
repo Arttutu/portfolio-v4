@@ -27,7 +27,7 @@ export default function Apresentacao() {
   };
   return (
     <section className="container mt-24  sm:mt-32 mx-auto">
-      <div className="  sm:flex sm:flex-col flex flex-col gap-8">
+      <div className="  sm:flex sm:flex-col flex flex-col gap-12">
         <article className=" w-full sm:flex sm:flex-col sm:w-1/2  ">
         <motion.h1
             initial="hidden"

@@ -4,7 +4,7 @@
     "titulo": "Crônicas do Console",
     "descricao": "Crônicas do Console é um blog dedicado ao universo dos videogames. Exploramos clássicos, análises de lançamentos, e notícias do mundo dos jogos, trazendo uma perspectiva apaixonada para gamers de todos os níveis",
     "img": "./assets/img/cronicas.png",
-    "deploy": "cronicasdoconsole.vercel.app/",
+    "deploy": "https://cronicasdoconsole.vercel.app/",
     "codigo": "https://github.com/Arttutu/",
     "nomeTech": "Next.js, Auth.js, Google API, Prisma, PostgreSQL, Tailiwind CSS, Figma"
   },

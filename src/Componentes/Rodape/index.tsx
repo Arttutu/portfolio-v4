@@ -12,7 +12,7 @@ export default function Rodape() {
           <h3 className="text-white dark:text-black text-4xl  sm:text-7xl font-semibold text-center sm:text-left">
             Contato
           </h3>
-          <p className="text-white dark:text-black text-base text-center sm:text-left">
+          <p className="text-white dark:text-black text-md text-center sm:text-left">
             Por favor preencha o formulário e entrarei em contato com você o
             mais breve possível.
           </p>
