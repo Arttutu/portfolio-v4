@@ -4,7 +4,7 @@ import { SiGithub } from "react-icons/si";
 import { TemaBotao } from "../TemaBotao/TemaBotao";
 export default function Rede() {
   return (
-    <div className="flex gap-8 relative z-20 items-center">
+    <div className="flex gap-4 md:gap-8 relative z-20 items-center">
       <TemaBotao />
 
       <a

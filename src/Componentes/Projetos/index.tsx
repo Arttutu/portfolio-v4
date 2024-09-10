@@ -5,9 +5,9 @@ import { SiGithub } from "react-icons/si";
 import { motion } from 'framer-motion';
 export default function Projetos() {
   return (
-    <section id="projeto" className="container flex flex-col mt-32 mx-auto">
+    <section id="projeto" className="container flex flex-col  md:mt-32 mx-auto">
      
-        <h3 className="dark:text-white underline text-black text-4xl sm:text-8xl m-32 flex items-end justify-center font-bold">Projetos</h3>
+        <h3 className="dark:text-white unde text-black text-4xl sm:text-8xl  py-16 md:py-32 flex items-end justify-center font-bold">Projetos</h3>
         
      
       <div className="flex flex-col gap-8  sm:gap-52">
@@ -28,7 +28,7 @@ export default function Projetos() {
         ))}
       </div>
       <a href="https://github.com/Arttutu" target="_blank">
-        <button className="dark:text-white text-black flex gap-4 items-center font-bold text-xl sm:text-3xl mx-auto my-32 dark:hover:text-secundaria hover:text-secundaria transition-all">
+        <button className="dark:text-white text-black flex gap-4 items-center font-bold text-xl sm:text-3xl mx-auto py-16 dark:hover:text-secundaria hover:text-secundaria transition-all">
           Veja mais projetos 
           <SiGithub />
         </button>

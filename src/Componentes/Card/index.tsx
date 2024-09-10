@@ -7,8 +7,8 @@ interface CardPropsWithReverse extends CardProps {
 
 export default function Card({ img, titulo, descricao, site, codigo, tech, reverse }: CardPropsWithReverse) {
   return (
-    <div className={`flex flex-col gap-12 md:flex md:items-center md:pb-4 ${reverse ? 'md:flex-row-reverse' : 'md:flex-row'}`}>
-      <img src={img} alt={titulo} className="w-full rounded-lg md:w-1/2 h-auto" />
+    <div className={` flex flex-col gap-12 md:flex md:items-center md:pb-4 ${reverse ? 'md:flex-row-reverse' : 'md:flex-row'}`}>
+      <img src={img} alt={titulo} className="w-full   md:w-1/2 h-auto" />
       <div className="flex flex-col justify-center items-start p-4 gap-4 w-full md:w-1/2">
         <div className="flex flex-col gap-4">
           <h1 className="dark:text-white text-black font-extrabold text-2xl">{titulo}</h1>

@@ -27,13 +27,13 @@ export default function Apresentacao() {
   };
   return (
     <section className="container mt-24  sm:mt-32 mx-auto">
-      <div className="  sm:flex sm:flex-col flex flex-col gap-12">
+      <div className="flex flex-col-reverse   sm:flex sm:flex-col gap-12">
         <article className=" w-full sm:flex sm:flex-col sm:w-1/2  ">
         <motion.h1
             initial="hidden"
             whileInView="visible"
             variants={containerAnimation}
-            className="text-center sm:text-left dark:text-white text-black text-4xl  sm:text-8xl font-semibold"
+            className="text-left dark:text-white text-black text-4xl  sm:text-8xl font-semibold"
         >
           {'Paixão pelo desenvolvimento de software'.split('').map((letra, index) => (
             <motion.span key={index} variants={letterAnimation}>
