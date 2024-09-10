@@ -25,12 +25,12 @@ const containerAnimation = {
 export default function Sobre() {
   return (
     <section className='container mx-auto flex flex-col mt-32'>
-      <div className='flex flex-col '>
+      <div className='flex  gap-4 md:flex md:flex-col '>
         <motion.div
           initial="hidden"
           whileInView="visible"
           variants={containerAnimation}
-          className='flex justify-end font-bold sm:text-9xl text-4xl dark:text-white'
+          className='flex justify-center md:justify-end font-bold sm:text-9xl text-4xl dark:text-white'
         >
           {'Arthur'.split('').map((letra, index) => (
             <motion.span key={index} variants={letterAnimation}>
@@ -42,7 +42,7 @@ export default function Sobre() {
           initial={{ opacity: 0, x: -50 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 1.5 }}
-          className='flex underline justify-end font-bold sm:text-9xl text-4xl dark:text-white mr-5 sm:mr-16'
+          className='flex  justify-center md:justify-end font-bold sm:text-9xl text-4xl dark:text-white mr-5 sm:mr-16'
         >
           {'Gomes'.split('').map((letra, index) => (
             <motion.span key={index} variants={letterAnimation}>
